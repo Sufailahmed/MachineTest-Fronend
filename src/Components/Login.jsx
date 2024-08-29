@@ -37,7 +37,7 @@ function Login() {
           password: ""
         })
         if(result.data.existingUser.username=='admin'){
-          navigate('/admin')
+          navigate('/dashboard')
           alert("admin logged success")
         }
         else{

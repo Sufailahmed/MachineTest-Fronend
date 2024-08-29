@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { getallUsersAPI } from '../Seervices/allAPI'
+
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
